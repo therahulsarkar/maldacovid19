@@ -1561,3 +1561,41 @@ p.form-message.error.form-message.error {
 .mb-15 {
   padding-bottom: 30px;
 }
+
+/* Member */
+#member {
+  background-color: #0173ff;
+}
+
+.dots {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  right: -4px;
+  bottom: 8px;
+}
+
+.box-ellipse {
+  background-color: #ebedf0;
+  padding-right: 10px;
+  color: #000;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.box-pensil {
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+}
