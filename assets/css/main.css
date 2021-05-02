@@ -146,8 +146,8 @@ a:not([href]):not([tabindex]) {
 }
 
 .shape {
-  height: 1px;
-  margin: 0 auto 30px;
+  height: 1.5px;
+  margin: 0 auto 20px;
   position: relative;
   width: 60px;
   background-color: #f63854;
@@ -445,24 +445,12 @@ hr {
   z-index: 1;
 }
 
-#features .content-left span {
-  float: right;
-}
-
-#features .content-left .text {
-  text-align: right;
-}
-
-#features .content-right span {
-  float: left;
-}
-
 #features .box-item {
-  box-shadow: 0 0 12px #f4f4f4;
+  box-shadow: 0 10px 22px 10px rgba(136, 131, 132, 0.137);
   padding: 15px;
   line-height: 22px;
   margin-top: 30px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -mox-transition: all 0.3s ease-in-out;
@@ -506,11 +494,7 @@ hr {
 }
 
 #features .box-item:hover {
-  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
-}
-
-#features .box-item:hover h4 {
-  color: #f63854;
+  box-shadow: 0 10px 22px 10px rgba(42, 54, 66, 0.233);
 }
 
 #features .show-box {
@@ -986,7 +970,7 @@ hr {
 
 .testimonial {
   position: relative;
-  background-color: #f63854;
+  background-image: linear-gradient(25deg, #00007c, #3a00a3, #6200cc, #8a00f6);
 }
 
 .testimonial-item {
@@ -1195,7 +1179,7 @@ textarea {
   opacity: 1;
 }
 
-/* Contact are */
+/* Contact Section */
 
 #contact {
   padding-top: 100px;
@@ -1226,8 +1210,8 @@ p.form-message.error.form-message.error {
 }
 
 .contact_image img {
-  height: 30rem;
-  width: 35rem;
+  height: 25rem;
+  width: 30rem;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact_image {
@@ -1336,11 +1320,14 @@ p.form-message.error.form-message.error {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 28px;
+  font-size: 1rem;
   margin: 0 0 15px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
+  background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #footer .footer-top .footer-info p {
@@ -1564,7 +1551,7 @@ p.form-message.error.form-message.error {
 
 /* Member */
 #member {
-  background-color: #0173ff;
+  background-color: #ebebeb;
 }
 
 .dots {
@@ -1637,4 +1624,8 @@ p.form-message.error.form-message.error {
 .card .card-statistic-3 .card-icon-large .fab,
 .card .card-statistic-3 .card-icon-large .fal {
   font-size: 110px;
+}
+
+.datacard {
+  box-shadow: 0 10px 22px 10px rgba(42, 54, 66, 0.233);
 }

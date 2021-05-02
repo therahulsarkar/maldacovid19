@@ -213,4 +213,18 @@
   .cta-text {
     margin-bottom: 30px;
   }
+
+  #contact {
+    padding-top: 50px;
+  }
+  .contact_image {
+    position: relative;
+    padding-top: 0px;
+    top: 0;
+  }
+
+  .contact_image img {
+    height: 18rem;
+    width: 20rem;
+  }
 }
