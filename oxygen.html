@@ -13,108 +13,202 @@
     <!-- Icon -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
+
 
 
 </head>
 <style>
+    #member {
+        /* background-image: linear-gradient(25deg, #000085, #3800ab, #5f00d2, #8400fb); */
+        background-image: linear-gradient(25deg, #3509c2, #3236d2, #2854e3, #006ff3)
+    }
+
+    .dots {
+        height: 20px;
+        width: 20px;
+        background-color: green;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        right: -4px;
+        bottom: 8px;
+    }
+
+    .box-ellipse {
+        background-color: #ebedf0;
+        padding-right: 10px;
+        color: #000;
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .box-pensil {
+        background-color: blue;
+        color: #fff;
+        cursor: pointer;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+    }
+
+    .badge {
+        border-radius: 3px;
+        font-size: 12px;
+        line-height: 1;
+        padding: .375rem .5625rem;
+        font-weight: normal
+    }
+
+    lebel {
+        padding-left: 10px;
+    }
 </style>
 
 <body>
 
-    <section>
-        <div class="page-content page-container" id="page-content">
-            <div class="padding">
-                <div class="py-10 h-screen bg-gray-300 px-2">
-                    <div class="max-w-md mx-auto bg-gray-100 shadow-lg rounded-lg overflow-hidden md:max-w-lg">
-                        <div class="md:flex">
-                            <div class="w-full p-4">
-                                <div class="relative"> <input type="text"
-                                        class="w-full h-12 rounded focus:outline-none px-3 focus:shadow-md"
-                                        placeholder="Search..."> <i
-                                        class="fa fa-search absolute right-3 top-4 text-gray-300"></i> </div>
-                                <ul>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/aq39RMA.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span
-                                                    class="font-medium text-black">Jessica Koel</span> <span
-                                                    class="text-sm text-gray-400 truncate w-32">Hey, Joel, I here to
-                                                    help you out please tell me</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span
-                                                class="text-gray-300">11:26</span> <i
-                                                class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/eMaYwXn.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span
-                                                    class="font-medium text-black">Komeial Bolger</span> <span
-                                                    class="text-sm text-gray-400 truncate w-32">I will send you all
-                                                    documents as soon as possible</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span
-                                                class="text-gray-300">12:26</span> <i
-                                                class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/zQZSWrt.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span
-                                                    class="font-medium text-black">Tamaara Suiale</span> <span
-                                                    class="text-sm text-gray-400 truncate w-32">Are you going to
-                                                    business trip next week</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span class="text-gray-300">8:26</span>
-                                            <i class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/agRGhBc.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span class="font-medium text-black">Sam
-                                                    Nielson</span> <span class="text-sm text-gray-400 truncate w-32">I
-                                                    suggest to start new business soon</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span class="text-gray-300">7:16</span>
-                                            <i class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/uIgDDDd.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span
-                                                    class="font-medium text-black">Caroline Nexon</span> <span
-                                                    class="text-sm text-gray-400 truncate w-32">We need to start new
-                                                    reseatch center.</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span class="text-gray-300">9:26</span>
-                                            <i class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                    <li
-                                        class="flex justify-between items-center bg-white mt-2 p-2 hover:shadow-lg rounded cursor-pointer transition">
-                                        <div class="flex ml-2"> <img src="https://i.imgur.com/tT8rjKC.jpg" width="40"
-                                                height="40" class="rounded-full">
-                                            <div class="flex flex-col ml-2"> <span
-                                                    class="font-medium text-black">Patrick Koeler</span> <span
-                                                    class="text-sm text-gray-400 truncate w-32">May be yes</span> </div>
-                                        </div>
-                                        <div class="flex flex-col items-center"> <span class="text-gray-300">3:26</span>
-                                            <i class="fa fa-star text-green-400"></i> </div>
-                                    </li>
-                                </ul>
+    <section id="member" class="">
+        <div class="container mt-0">
+            <div class=" row d-flex justify-content-center align-items-center">
+
+                <div class="col-md-10 mb-3 col-lg-8 mt-3">
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-0">Indian Oxygen Agency</h5> <span><i
+                                            class='bx bxs-phone'></i>9434456505 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class=" d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Oxygen Agency (Shil Brothers)</h5> <span><i
+                                            class='bx bxs-phone'></i>9733419417 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Shankar Gas Industries</h5> <span> <i
+                                            class='bx bxs-phone'></i>9434051222 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Genesis Healthcare(Dr.Arnab)</h5> <span><i
+                                            class='bx bxs-phone'></i>8249079470 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Opposite of Malda Medical Center</h5> <span><i
+                                            class='bx bxs-phone'></i>7407467847 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Press Club of Malda (Kalitala)</h5> <span><i
+                                            class='bx bxs-phone'></i>7001310051 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">apollo Drug (Opposite to Malda Girls)</h5>
+                                    <span><i class='bx bxs-phone'></i>9733387176 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="p-3 bg-white rounded m-3">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
+                                        width="80" class="rounded-circle">
+                                </div>
+                                <div class="ml-2">
+                                    <h5 class="mb-2">Malda Medicine Centre (Gour Road)</h5> <span><i
+                                            class='bx bxs-phone'></i>9734475423 </span><label
+                                        class="badge badge-success mb-9">Verified</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
-
     </section>
 
     <script src="assets/js/jquery-min.js"></script>

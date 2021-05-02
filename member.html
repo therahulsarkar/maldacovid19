@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Volunteers</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+</head>
+<style>
+    body {
+        background-color: #f9f9fa;
+        margin: 0 !important;
+
+    }
+
+    .flex {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto
+    }
+
+    .telemedicine-cover {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+
+
+    @media (max-width:767.98px) {
+        .padding {
+            padding-top: 1rem;
+
+        }
+
+
+
+        .table-responsive {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+        }
+
+        .table,
+        .jsgrid .jsgrid-table {
+            width: 100%;
+            max-width: 100%;
+            /* margin-bottom: 1rem; */
+            background-color: transparent;
+        }
+
+        .table thead th,
+        .jsgrid .jsgrid-table thead th {
+            border-top: 0;
+            border-bottom-width: 1px;
+            font-weight: 500;
+            font-size: .875rem;
+            text-transform: uppercase
+        }
+
+        .table td,
+        .jsgrid .jsgrid-table td {
+            font-size: 0.275rem;
+            padding: .875rem 0.9375rem
+        }
+    }
+
+    @media (min-width:767.98px) {
+        .padding {
+            padding: 5rem;
+        }
+
+        body {
+            background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+        }
+    }
+
+    .card {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none
+    }
+
+    .pl-3,
+    .px-3 {
+        padding-left: 1rem !important
+    }
+
+    .row {
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #d2d2dc;
+        border-radius: 0
+    }
+
+    .card .card-title {
+        color: #000000;
+        margin-bottom: 0.625rem;
+        text-transform: capitalize;
+        font-size: 0.875rem;
+        font-weight: 500
+    }
+
+    .card img {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .card .card-description {
+        margin-bottom: .875rem;
+        font-weight: 400;
+        color: #818181
+    }
+
+    p {
+        font-size: 0.875rem;
+        margin-bottom: .5rem;
+        line-height: 1.5rem
+    }
+
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .table,
+    .jsgrid .jsgrid-table {
+        width: 100%;
+        max-width: 100%;
+        /* margin-bottom: 1rem; */
+        background-color: transparent;
+    }
+
+    .table thead th,
+    .jsgrid .jsgrid-table thead th {
+        border-top: 0;
+        border-bottom-width: 1px;
+        font-weight: 500;
+        font-size: .875rem;
+        text-transform: uppercase
+    }
+
+    .table td,
+    .jsgrid .jsgrid-table td {
+        font-size: 0.875rem;
+        padding: .875rem 0.9375rem
+    }
+
+    .badge {
+        border-radius: 0;
+        font-size: 12px;
+        line-height: 1;
+        padding: .375rem .5625rem;
+        font-weight: normal
+    }
+</style>
+
+<body>
+
+    <section>
+        <div class="page-content page-container" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-lg-11 col-md-12 col-sm-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/img/feature/volunteer.svg" alt="">
+                                </div>
+
+                                <h4 class="card-title d-flex justify-content-center">Volunteers Across Malda</h4>
+
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Phone No</th>
+                                                <th>Organization</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="grey">
+                                                <td>Nilabja</td>
+                                                <td>9064766081</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Saiyonee</td>
+                                                <td>7548999152</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr class="grey">
+                                                <td>Debarghya</td>
+                                                <td>9733196716</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Aftab</td>
+                                                <td>8101944589</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr class="grey">
+                                                <td>Abhigyan</td>
+                                                <td>9733146762</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Aakash</td>
+                                                <td>7001028355</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr class="grey">
+                                                <td>Devdutta</td>
+                                                <td>9002116048</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ishan</td>
+                                                <td>8218049471</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr class="grey">
+                                                <td>Gopa</td>
+                                                <td>9434213265</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Subhankar</td>
+                                                <td>8116434662</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Debaprasad</td>
+                                                <td>9734315145</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Santanu</td>
+                                                <td>9475648471</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tirthendu</td>
+                                                <td>9733006777</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Subhajit</td>
+                                                <td>9932759706</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Madhurima</td>
+                                                <td>9038071320</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Reshmi</td>
+                                                <td>9733086530</td>
+                                                <td><label class="badge badge-danger">Red volunteers</label></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
