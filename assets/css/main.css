@@ -1629,3 +1629,258 @@ p.form-message.error.form-message.error {
 .datacard {
   box-shadow: 0 10px 22px 10px rgba(42, 54, 66, 0.233);
 }
+
+/* Member */
+.project .row {
+  margin: 0;
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+
+.project div[class*="col-"] {
+  border-right: 1px solid #eee;
+}
+
+.project .text h3 {
+  margin-bottom: 0;
+  color: #555;
+}
+
+.project .text small {
+  color: #aaa;
+  font-size: 0.75em;
+}
+
+.project .project-date span {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.project .image {
+  max-width: 50px;
+  min-width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.project .time,
+.project .comments,
+.project .project-progress {
+  color: #999;
+  font-size: 0.9em;
+  margin-right: 20px;
+}
+
+.project .time i,
+.project .comments i,
+.project .project-progress i {
+  margin-right: 5px;
+}
+
+.project .project-progress {
+  width: 200px;
+}
+
+.project .project-progress .progress {
+  height: 4px;
+}
+
+.project .card {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .project .right-col {
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+  .project .project-progress {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project .project-progress {
+    display: none;
+  }
+}
+.has-shadow {
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px 0 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -1px 0 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.bg-white {
+  background: #fff !important;
+}
+
+.bg-red {
+  background: #ff7676 !important;
+  color: #fff;
+}
+
+.bg-red:hover {
+  color: #fff;
+}
+
+.bg-blue {
+  background: #85b4f2 !important;
+  color: #fff;
+}
+
+.bg-blue:hover {
+  color: #fff;
+}
+
+.bg-yellow {
+  background: #eef157 !important;
+  color: #fff;
+}
+
+.bg-yellow:hover {
+  color: #fff;
+}
+
+.bg-green {
+  background: #54e69d !important;
+  color: #fff;
+}
+
+.bg-green:hover {
+  color: #fff;
+}
+
+.bg-orange {
+  background: #ffc36d !important;
+  color: #fff;
+}
+
+.bg-orange:hover {
+  color: #fff;
+}
+
+.bg-violet {
+  background: #796aee !important;
+  color: #fff;
+}
+
+.bg-violet:hover {
+  color: #fff;
+}
+
+.bg-gray {
+  background: #ced4da !important;
+}
+
+/* Timeline */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+/* fgfg  */
+.pinkBg {
+  background-color: #ed184f !important;
+  background-image: linear-gradient(90deg, #fd5581, #fd8b55);
+}
+.intro-banner-vdo-play-btn {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  margin: -30px 0 0 -30px;
+  border-radius: 100px;
+  z-index: 1;
+}
+.intro-banner-vdo-play-btn i {
+  line-height: 56px;
+  font-size: 30px;
+}
+.intro-banner-vdo-play-btn .ripple {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  margin: -80px 0 0 -80px;
+  border-radius: 100px;
+  -webkit-animation: ripple 1.8s infinite;
+  animation: ripple 1.8s infinite;
+}
+
+@-webkit-keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(2) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+.intro-banner-vdo-play-btn .ripple:nth-child(3) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+
+/* Member */
+.members {
+  background-image: linear-gradient(to top, #ff6857 0%, #f63854 100%);
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.members h2 {
+  padding-top: 10px;
+  color: #fff;
+  padding-bottom: 0px;
+}
+.members img {
+  padding-left: 15px;
+  border-radius: 5px;
+}
