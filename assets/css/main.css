@@ -634,9 +634,9 @@ hr {
   top: 0px;
 }
 
-.top-nav-collapse .navbar-brand img {
+/* .top-nav-collapse .navbar-brand img {
   width: 70%;
-}
+} */
 
 .top-nav-collapse .navbar-nav .nav-link {
   color: #585b60 !important;
@@ -704,6 +704,10 @@ hr {
   transition: all 0.3s ease-in-out;
 }
 
+.header-text img {
+  height: 2rem;
+  width: 2rem;
+}
 .navbar-expand-md .navbar-nav .nav-link:before {
   background-color: #f63854;
   content: "";
@@ -724,7 +728,9 @@ hr {
 .navbar-expand-md .navbar-nav li a:hover,
 .navbar-expand-md .navbar-nav li .active > a,
 .navbar-expand-md .navbar-nav li a:focus {
-  color: #fff;
+  background: linear-gradient(to right, rgb(255, 56, 21) 0%, rgb(253, 11, 124) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   outline: none;
 }
 
