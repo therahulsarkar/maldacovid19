@@ -95,12 +95,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  #hero-area {
-    background-image: url("../img/feature/hero-bg.svg");
-  }
-}
-
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-padding {
@@ -232,11 +226,5 @@
   .contact_image img {
     height: 18rem;
     width: 20rem;
-  }
-
-  #hero-area {
-    background-image: linear-gradient(to top, #f63855 0%rgba (246, 56, 85, 0.123) 54 52%, #ffffff 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
