@@ -34,6 +34,11 @@
   }
 }
 
+@media (min-width: 768px) {
+  #hero-area {
+    background-image: url("../img/feature/hero-bg.svg");
+  }
+}
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .section-title {
@@ -226,5 +231,9 @@
   .contact_image img {
     height: 18rem;
     width: 20rem;
+  }
+
+  #hero-area {
+    background-image: url("");
   }
 }
