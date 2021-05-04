@@ -1484,7 +1484,7 @@ p.form-message.error.form-message.error {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #footer .credits {
@@ -1501,11 +1501,6 @@ p.form-message.error.form-message.error {
 #my-form-status {
   font-size: 1rem;
   color: green;
-}
-#copyright .copyright-content {
-  border-top: 1px solid #d5d4e9;
-  padding: 15px 0;
-  margin: 45px 0 0px;
 }
 
 #copyright p {
