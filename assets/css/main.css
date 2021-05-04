@@ -51,6 +51,19 @@ a a:focus {
   outline: none;
 }
 
+/* Animation */
+
+.intro-img,
+.doctor img {
+  animation: float 3s ease-in infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translate(0, 15px);
+  }
+}
+
 /* Universal button */
 .universal-button .universal-main-btn {
   background-color: #f94f4f;
