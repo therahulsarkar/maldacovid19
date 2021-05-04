@@ -5,8 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Telemedicine</title>
+    <title>Bed Availability</title>
     <link rel="shortcut icon" type="image/ong" href="./assets/img/feature/virus.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -18,234 +17,168 @@
 
 </head>
 <style>
-    #member {
-        /* background-image: linear-gradient(25deg, #000085, #3800ab, #5f00d2, #8400fb); */
-        background-image: linear-gradient(25deg, #3509c2, #3236d2, #2854e3, #006ff3)
+    body {
+        background-image: linear-gradient(25deg, #69004f, #9a0044, #c90036, #f90024);
+        margin-top: 20px;
     }
 
-    .dots {
-        height: 20px;
-        width: 20px;
-        background-color: green;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        right: -4px;
-        bottom: 8px;
-    }
-
-    .box-ellipse {
-        background-color: #ebedf0;
-        padding-right: 10px;
-        color: #000;
-        padding-left: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    .box-pensil {
-        background-color: blue;
-        color: #fff;
-        cursor: pointer;
-        font-size: 15px;
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        border-radius: 4px;
+    .thumb-lg {
+        height: 88px;
+        width: 88px;
     }
 
     .badge {
-        border-radius: 3px;
-        font-size: 12px;
-        line-height: 1;
-        padding: .375rem .5625rem;
-        font-weight: normal
+        padding: 10px;
     }
 
-    lebel {
-        padding-left: 10px;
+    .card {
+        border: none;
+        box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
     }
 
-    .bedimage img {
-        height: 20rem;
-        width: 20rem;
+    .m-b-30 {
+        margin-bottom: 30px;
+    }
+
+    h5 {
+        font-size: 1.1rem;
     }
 </style>
 
 <body>
+    <section>
 
-    <section id="member" class="">
-        <div class="container mt-0">
-            <div class="d-flex bedimage justify-content-center">
-                <img src="https://res.cloudinary.com/rahulsarkar/image/upload/v1620077607/hospital-min_ycxzos.png"
-                    loading="lazy" alt="">
-            </div>
-            <div class=" row d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
 
-                <div class="col-md-10 mb-3 col-lg-8 mt-3">
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-0">Indian Oxygen Agency</h5> <span><i
-                                            class='bx bxs-phone'></i>9434456505 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 rounded-circle img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/hospital.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 font-weight-bold mb-1">Angel Nursing Home</h5>
+                                    <p class="font-18 font-weight-bold mt-2 text-primary"><i class='bx bxs-phone'></i>
+                                        7586021575</p>
+                                    <p class="badge badge-success"><i class='bx bxs-bed'></i> 7 Beds available</p>
+                                    <p class="badge badge-light"><i class='bx bxs-time-five'></i> Last update: 4/5/21
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class=" d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Oxygen Agency (Shil Brothers)</h5> <span><i
-                                            class='bx bxs-phone'></i>9733419417 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Shankar Gas Industries</h5> <span> <i
-                                            class='bx bxs-phone'></i>9434051222 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 rounded-circle img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/hospital.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 font-weight-bold mb-1">Dishari</h5>
+                                    <p class="font-18 font-weight-bold mt-2 text-primary"><i
+                                            class='bx bxs-phone'></i>8116602176</p>
+                                    <p class="badge badge-warning"><i class='bx bxs-bed'></i> No Update</p>
+                                    <p class="badge badge-light"><i class='bx bxs-time-five'></i> Last update: 4/5/21
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Genesis Healthcare(Dr.Arnab)</h5> <span><i
-                                            class='bx bxs-phone'></i>8249079470 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Opposite of Malda Medical Center</h5> <span><i
-                                            class='bx bxs-phone'></i>7407467847 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Press Club of Malda (Kalitala)</h5> <span><i
-                                            class='bx bxs-phone'></i>7001310051 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">apollo Drug (Opposite to Malda Girls)</h5>
-                                    <span><i class='bx bxs-phone'></i>9733387176 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Malda Medicine Centre (Gour Road)</h5> <span><i
-                                            class='bx bxs-phone'></i>9734475423 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Malda Medical College</h5> <span><i class='bx bxs-phone'></i>03512
-                                        221087 </span><label class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-3 bg-white rounded m-3">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex flex-row align-items-center">
-                                <div class="position-relative pr-3"> <img src="./assets/img/feature/oxygen.svg"
-                                        width="80" class="rounded-circle">
-                                </div>
-                                <div class="ml-2">
-                                    <h5 class="mb-2">Medical Oxygen Agency</h5> <span><i
-                                            class='bx bxs-phone'></i>7947431135 </span><label
-                                        class="badge badge-success mb-9">Verified</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
+            <!-- end col -->
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 rounded-circle img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/hospital.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 font-weight-bold mb-1">Glocal ECH Hospital</h5>
+                                    <p class="font-18 font-weight-bold mt-2 text-primary"><i
+                                            class='bx bxs-phone'></i>9734344000</p>
+                                    <p class="badge badge-danger"><i class='bx bxs-bed'></i> No Bed Available</p>
+                                    <p class="badge badge-light"><i class='bx bxs-time-five'></i> Last update: 4/5/21
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+
+                <!-- end row -->
+
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 rounded-circle img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/hospital.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 font-weight-bold mb-1">Malda Medical Center</h5>
+                                    <p class="font-18 font-weight-bold mt-2 text-primary"><i
+                                            class='bx bxs-phone'></i>03512252889</p>
+                                    <p class="badge badge-warning"><i class='bx bxs-bed'></i> No Update</p>
+                                    <p class="badge badge-light"><i class='bx bxs-time-five'></i> Last update: 4/5/21
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 rounded-circle img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/hospital.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 font-weight-bold mb-1">Tripathi Nursing Home</h5>
+                                    <p class="font-18 font-weight-bold mt-2 text-primary"><i
+                                            class='bx bxs-phone'></i>9025617658</p>
+                                    <p class="badge badge-success"><i class='bx bxs-bed'></i> 5 beds available</p>
+                                    <p class="badge badge-light"><i class='bx bxs-time-five'></i> Last update: 4/5/21
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 thumb-lg" src="./assets/img/feature/alarm.svg"
+                                    alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <p class="mt-0 font-10 mb-1">Please don't rely completely on this data, we try our
+                                        best to provide accurate information but we sincerely request the users to
+                                        reverify and confirm
+                                        the current status of available hospital beds.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+
+
+        </div>
+
+        <!-- end row -->
+
         </div>
     </section>
 
