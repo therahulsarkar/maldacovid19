@@ -168,6 +168,9 @@
   .about-area img {
     margin-top: 30px;
   }
+  .about-area h2 {
+    font-size: 2rem;
+  }
   .feature-thumb {
     padding: 10px;
   }
