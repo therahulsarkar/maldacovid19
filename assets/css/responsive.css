@@ -240,4 +240,32 @@
   #hero-area {
     background-image: url("");
   }
+
+  #help-area {
+    /* background-image: url("../img/feature/hero-bg.svg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0 10px;
+  }
+
+  #help-area .contents .head-title {
+    color: #222222;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 30px;
+  }
+
+  #help-area .contents .header-button {
+    margin-top: 20px;
+    color: #222222;
+  }
+
+  #help-area .contents .header-button .btn {
+    margin-right: 10px;
+  }
 }

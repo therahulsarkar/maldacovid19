@@ -872,6 +872,7 @@ hr {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
+
 #hero-area {
   /* background-image: url("../img/feature/hero-bg.svg"); */
   background-position: center center;
@@ -1577,6 +1578,59 @@ p.form-message.error.form-message.error {
 /* Member */
 #member {
   background-color: #ebebeb;
+}
+
+#help-area {
+  /* background-image: url("../img/feature/hero-bg.svg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0 10px;
+}
+
+#help-area .contents .head-title {
+  color: #222222;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+#help-area .contents .header-button {
+  margin-top: 20px;
+  color: #222222;
+}
+
+#help-area .contents .header-button .btn {
+  margin-right: 10px;
+}
+
+#isolation-area {
+  /* background-image: url("../img/feature/hero-bg.svg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#isolation-area .contents .head-title {
+  color: #4d4d4d;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#isolation-area .contents .header-button {
+  margin-top: 20px;
+  color: #222222;
+}
+
+#isolation-area .contents .header-button .btn {
+  margin-right: 10px;
 }
 
 .dots {
