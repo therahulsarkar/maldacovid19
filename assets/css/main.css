@@ -1974,3 +1974,9 @@ ul.timeline > li:before {
 .recent-update .d-block {
   color: rgb(90, 90, 90);
 }
+
+/* Social */
+.social-share img {
+  height: 15rem;
+  width: 15rem;
+}
