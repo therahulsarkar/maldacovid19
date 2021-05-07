@@ -1988,3 +1988,99 @@ ul.timeline > li:before {
   width: 28.2rem;
   border-radius: 8px;
 }
+
+/* Carousel */
+#demo {
+  background: linear-gradient(112deg, #ffffff 50%, rgb(233, 233, 233) 50%);
+  margin: auto;
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: rgba(97, 97, 97, 0.856);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.carousel-caption h5 {
+  background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 3rem 2rem;
+    color: rgba(97, 97, 97, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem;
+  }
+}
+
+.carousel-caption img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem;
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  #image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.carousel-control-prev i {
+  background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.carousel-control-next i {
+  background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .carousel-control-prev i {
+    padding: 0.8rem;
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset;
+}
