@@ -1980,3 +1980,11 @@ ul.timeline > li:before {
   height: 15rem;
   width: 15rem;
 }
+
+/* Fund raising */
+.fund-raising img {
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+}
