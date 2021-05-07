@@ -1984,7 +1984,7 @@ ul.timeline > li:before {
 /* Fund raising */
 .fund-raising img {
   overflow: hidden;
-  height: auto;
-  width: auto;
+  height: 20rem;
+  width: 28.2rem;
   border-radius: 8px;
 }

@@ -268,4 +268,10 @@
   #help-area .contents .header-button .btn {
     margin-right: 10px;
   }
+  .fund-raising img {
+    overflow: hidden;
+    height: 12rem;
+    width: 25rem;
+    border-radius: 8px;
+  }
 }
