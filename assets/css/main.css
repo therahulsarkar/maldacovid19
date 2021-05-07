@@ -2057,10 +2057,14 @@ ul.timeline > li:before {
 
 .carousel-control-prev i {
   background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
-  padding: 1.2rem;
+  padding: 1.1rem;
   border-radius: 5px;
 }
 
+.carousel a:hover {
+  transform: scale(1);
+  color: #fff;
+}
 .carousel-control-next i {
   background: linear-gradient(to right, rgb(232, 69, 5) 0%, rgb(253, 11, 71) 100%);
   padding: 1.2rem;
