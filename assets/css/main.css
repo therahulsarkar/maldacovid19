@@ -2019,7 +2019,6 @@ ul.timeline > li:before {
     color: rgba(97, 97, 97, 0.856);
     text-align: center;
     font-size: 0.7rem;
-    font-style: italic;
     font-weight: bold;
     line-height: 1.5rem;
   }
