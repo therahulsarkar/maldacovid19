@@ -537,7 +537,7 @@ hr {
   margin: 15px 0;
   border: 1px solid rgb(228, 228, 228);
   background: #fff;
-  box-shadow: 0 0 12px #dfdfdf;
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.123);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
