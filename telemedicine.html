@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Telemedicine</title>
     <link rel="shortcut icon" type="image/ong" href="./assets/img/feature/virus.png" />
     <!-- Bootstrap CSS -->
@@ -13,296 +12,245 @@
     <!-- Icon -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
+
 
 
 </head>
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
     body {
-        background-color: #f9f9fa;
-        margin: 0 !important;
-
+        background-image: linear-gradient(25deg, #061693, #1037b4, #1157d7, #0177fa);
+        margin-top: 20px;
+        font-family: "Poppins", sans-serif;
     }
 
-    .flex {
-        -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto
-    }
-
-    .telemedicine-cover {
-        margin: 0;
-        padding: 0;
-        position: relative;
-    }
-
-
-
-    @media (max-width:767.98px) {
-        .padding {
-            padding-top: 1rem;
-
-        }
-
-
-
-        .table-responsive {
-            display: block;
-            width: 100%;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
-        }
-
-        .table,
-        .jsgrid .jsgrid-table {
-            width: 100%;
-            max-width: 100%;
-            /* margin-bottom: 1rem; */
-            background-color: transparent;
-        }
-
-        .table thead th,
-        .jsgrid .jsgrid-table thead th {
-            border-top: 0;
-            border-bottom-width: 1px;
-            font-weight: 500;
-            font-size: .875rem;
-            text-transform: uppercase
-        }
-
-        .table td,
-        .jsgrid .jsgrid-table td {
-            font-size: 0.275rem;
-            padding: .875rem 0.9375rem
-        }
-    }
-
-    @media (min-width:767.98px) {
-        .padding {
-            padding: 5rem;
-        }
-
-        body {
-            background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-        }
+    .thumb-lg {
+        height: 88px;
+        width: 88px;
     }
 
     .card {
-        box-shadow: none;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        -ms-box-shadow: none
+        border: none;
+        box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.05);
     }
 
-    .pl-3,
-    .px-3 {
-        padding-left: 1rem !important
+    .m-b-30 {
+        margin-bottom: 30px;
     }
 
-    .row {
-        flex-wrap: wrap;
-        margin-right: 0px;
-        margin-left: 0px;
+    h5 {
+        font-size: 1rem;
+        font-weight: 800;
     }
 
-    .card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: #fff;
-        background-clip: border-box;
-        border: 1px solid #d2d2dc;
-        border-radius: 0
-    }
-
-    .card .card-title {
-        color: #000000;
-        margin-bottom: 0.625rem;
-        text-transform: capitalize;
-        font-size: 0.875rem;
-        font-weight: 500
-    }
-
-    .card img {
-        height: 15rem;
-        width: 15rem;
-    }
-
-    .card .card-description {
-        margin-bottom: .875rem;
-        font-weight: 400;
-        color: #818181
-    }
-
-    p {
-        font-size: 0.875rem;
-        margin-bottom: .5rem;
-        line-height: 1.5rem
-    }
-
-    .table-responsive {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-    }
-
-    .table,
-    .jsgrid .jsgrid-table {
-        width: 100%;
-        max-width: 100%;
-        /* margin-bottom: 1rem; */
-        background-color: transparent;
-    }
-
-    .table thead th,
-    .jsgrid .jsgrid-table thead th {
-        border-top: 0;
-        border-bottom-width: 1px;
-        font-weight: 500;
-        font-size: .875rem;
-        text-transform: uppercase
-    }
-
-    .table td,
-    .jsgrid .jsgrid-table td {
-        font-size: 0.875rem;
-        padding: .875rem 0.9375rem
-    }
-
-    .badge {
-        border-radius: 0;
-        font-size: 12px;
-        line-height: 1;
-        padding: .375rem .5625rem;
-        font-weight: normal
-    }
-
-    .grey {
-        background-color: rgba(243, 243, 243, 0.719);
+    .font-change h5 {
+        font-size: 0.9rem;
     }
 </style>
 
 <body>
-
     <section>
-        <div class="page-content page-container" id="page-content">
-            <div class="padding">
-                <div class="row container d-flex justify-content-center">
-                    <div class="col-lg-11 col-md-12 col-sm-12 grid-margin stretch-card">
-                        <div class="card">
-                            <div class="card-body">
 
-                                <div class="d-flex justify-content-center">
-                                    <img src="https://res.cloudinary.com/rahulsarkar/image/upload/v1620076353/Telemedicine_k3ef3l.png"
-                                        alt="">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Bikram kr Saha
+                                    </h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i> 9433230888</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Arghadeep Paul (6-9pm)<i
+                                            class='bx bxs-badge-check text-success'></i></h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>8348397090</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Abhijit Sahan</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9883026884</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Piyush Kanti Mandal</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9833116968</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Abdulla Hannan</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9474174717</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Saswata Ghosh</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>8335886590</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Animesh Mandal</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9748922997</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                <h4 class="card-title d-flex justify-content-center">Telemedicine Helpline Numbers</h4>
-                                <h6 class="mb-5 d-flex justify-content-center">Swipe right to see more information<i
-                                        class='bx bx-right-arrow-alt'></i></h6>
-                                <div class="table-responsive">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Phone No</th>
-                                                <!-- <th>Sale</th> -->
-                                                <th>Verification</th>
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body font-change">
+                                    <h5 class="mt-0 font-18 mb-1">Dr. Naimul Haque</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9614571677
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="grey">
-                                                <td>Dr Bikram kr Saha</td>
-                                                <td>9433230888</td>
-                                                <!-- <td class="text-danger"> 18.76% <i class="fa fa-arrow-down"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Arghadeep Paul (6-9pm)</td>
-                                                <td>8348397090</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Abhijit Saha</td>
-                                                <td>9883026884</td>
-                                                <!-- <td class="text-danger"> 11.06% <i class="fa fa-arrow-down"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr class="grey">
-                                                <td>Dr Piyush Kanti Mandal</td>
-                                                <td>9833116968</td>
-                                                <!-- <td class="text-danger"> 35.00% <i class="fa fa-arrow-down"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Abdulla Hannan</td>
-                                                <td>9474174717</td>
-                                                <!-- <td class="text-success"> 22.00% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-warning">Verification Pending</label></td>
-                                            </tr>
-                                            <tr class="grey">
-                                                <td>Dr Saswata Ghosh</td>
-                                                <td>8335886590</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Animesh Mandal</td>
-                                                <td>9748922997</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr class="grey">
-                                                <td>Dr. Naimul Haque</td>
-                                                <td>9614571677</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Ajay Agarwal</td>
-                                                <td>9475377707</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr class="grey">
-                                                <td>Dr Dipankar Kaji</td>
-                                                <td>9831264485</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Bhaskar Mukherjee</td>
-                                                <td>9830340997</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-warning">Verification Pending</label></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr Chiranjit Biswas </td>
-                                                <td>7980852027</td>
-                                                <!-- <td class="text-success"> 28.05% <i class="fa fa-arrow-up"></i>
-                                            </td> -->
-                                                <td><label class="badge badge-success">Verified </label></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Ajay Agarwal</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9475377707
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Dipankar Kaji</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>9831264485
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-18 mb-1">Dr Chiranjit Biswas</h5>
+                                    <p class="text-muted font-14"><i class='bx bxs-phone'></i>7980852027
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card m-b-30">
+                        <div class="card-body">
+                            <div class="media">
+                                <img class="d-flex mr-3 border-0 img-thumbnail thumb-lg"
+                                    src="./assets/img/feature/doctor.svg" alt="Generic placeholder image" />
+                                <div class="media-body font-change">
+                                    <h5 class="mt-0 mb-1">Do you have any lead?</h5>
+                                    <br>
+                                    <button
+                                        onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeu31THrhf3mbwuYsapc9N84llhfwwYGI78L7iYB-cD-4RdBg/viewform?usp=sf_link'"
+                                        class="btn btn-primary d-flex justify-content-center btn-sm"
+                                        type="button">SUBMIT
+                                        HERE</button>
                                 </div>
                             </div>
                         </div>
@@ -310,7 +258,9 @@
                 </div>
             </div>
         </div>
+        <!-- end row -->
 
+        </div>
     </section>
 
     <script src="assets/js/jquery-min.js"></script>
