@@ -112,3 +112,48 @@
   });      
 
 }(jQuery));
+
+var button = document.querySelector('.buttonvaccine')
+var inputValue = document.querySelector('.inputValue')
+var inputValue2 = document.querySelector('.inputValue2')
+var clear = document.querySelector('.buttonvaccineclear')
+    button.addEventListener('click', function(){
+          
+
+
+        fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=726&date='+inputValue.value+'-0'+inputValue2.value+'-2021')
+        .then(response => response.json())
+        .then(data => {
+          const malda = data.sessions.map(data =>{
+           return `
+            <div class="card col-lg-12">
+            <div class="row">
+            <div class="col-lg-8 col-sm-8 vaccinedata">
+                <p class="pl-5 pt-3"><strong class="universal-text-color-vaccine">Center name:</strong> ${data.name}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Block:</strong> ${data.block_name}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Minimum age:</strong> ${data.min_age_limit}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Pincode:</strong> ${data.pincode}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Vaccine:</strong> <strong> ${data.vaccine}</strong></p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Address:</strong> ${data.address}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Date:</strong> ${data.date}</p>
+                <p class="pl-5 "><strong class="universal-text-color-vaccine">Available dose 1: ${data.available_capacity_dose1}</strong></p>
+                <p class="pl-5 pb-3"><strong class="universal-text-color-vaccine">Available dose 2: ${data.available_capacity_dose2}</strong></p>
+            </div>
+
+            <div class="col-lg-4 col-sm-4  d-flex align-items-center pb-2 d-sm-block vaccineimg">
+                  <img src="https://res.cloudinary.com/rahulsarkar/image/upload/v1621711079/vaccine_tewfoy.png">
+            </div>
+                </div>
+                </div>`
+          }).join("");
+          document.querySelector('#app').insertAdjacentHTML('afterbegin', malda);
+          if(malda == ""){
+            alert('Sorry no data found! 🥺 Try another date..😇')
+          }
+        })
+        .catch(err => alert('Sorry no data is available for this date'))
+    })
+
+    clear.addEventListener('click', function(){
+      document.querySelector('#app').innerHTML = " ";
+    })

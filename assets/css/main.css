@@ -122,6 +122,11 @@ a a:focus {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.universal-text-color-vaccine {
+  background: linear-gradient(25deg, #00257a, #0442a4, #0561d0, #0081fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .universal-grey {
   color: rgb(114, 114, 114);
@@ -598,7 +603,7 @@ hr {
 }
 
 .about-area {
-  background-image: linear-gradient(to top, #ffc4c4 0%, #ececec 52%, #ffffff 100%);
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 52%, #ffffff 100%);
 }
 
 .about-area .about-wrapper {
@@ -2100,4 +2105,61 @@ ul.timeline > li:before {
 .carousel-control-next {
   transition: none;
   opacity: unset;
+}
+
+/* vaccine data */
+.input {
+  text-align: center;
+}
+
+.vaccinedata p {
+  color: rgb(68, 68, 68);
+}
+input[type="number"] {
+  height: 50px;
+  width: 100px;
+  background: #ebebeb;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+/* input[type="number"] {
+  height: 50px;
+  width: 70px;
+  background: #ebebeb;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+} */
+
+input[type="submit"] {
+  height: 50px;
+  width: 100px;
+  background: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+}
+
+.display {
+  text-align: center;
+  color: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.vaccineimg img {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 25%;
+}
+
+*:focus {
+  outline: none;
 }
