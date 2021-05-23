@@ -114,14 +114,19 @@
 }(jQuery));
 
 var button = document.querySelector('.buttonvaccine')
-var inputValue = document.querySelector('.inputValue')
-var inputValue2 = document.querySelector('.inputValue2')
+//var inputValue = document.querySelector('.inputValue')
+// var inputValue2 = document.querySelector('.inputValue2')
 var clear = document.querySelector('.buttonvaccineclear')
+
     button.addEventListener('click', function(){
           
+      var e = document.getElementById("vaccinebox");
+      var inputValue2 = e.options[e.selectedIndex].value;
+    
+      var f = document.getElementById("vaccineboxday");
+      var inputValue1 = f.options[f.selectedIndex].value;
 
-
-        fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=726&date='+inputValue.value+'-0'+inputValue2.value+'-2021')
+        fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=726&date='+inputValue1+'-'+inputValue2+'-2021')
         .then(response => response.json())
         .then(data => {
           const malda = data.sessions.map(data =>{

@@ -2125,6 +2125,20 @@ input[type="number"] {
   border-radius: 2px;
   padding: 10px 10px;
 }
+
+select {
+  height: 50px;
+  width: 100px;
+  color: rgb(68, 68, 68);
+  background: #ebebeb;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  border-radius: 2px;
+}
 /* input[type="number"] {
   height: 50px;
   width: 70px;
