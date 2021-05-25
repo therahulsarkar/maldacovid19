@@ -1448,7 +1448,7 @@ p.form-message.error.form-message.error {
 #footer .footer-top .footer-newsletter form {
   margin-top: 10px;
   background: #fff;
-  padding: 6px 10px;
+  padding: 8.5px 10px;
   position: relative;
   border-radius: 4px;
 }
@@ -1467,8 +1467,8 @@ p.form-message.error.form-message.error {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 16px;
-  padding: 0 20px;
+  font-size: 14px;
+  padding: 0 15px;
   background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #ff2609 50%, #de005e 75%, #5335cf 100%);
   background-size: 400%;
   color: #fff;
@@ -1476,6 +1476,7 @@ p.form-message.error.form-message.error {
   border-radius: 0 4px 4px 0;
   transition: 0.4s;
   animation: animateemail 10s linear infinite;
+  overflow: hidden;
 }
 
 @keyframes animateemail {
