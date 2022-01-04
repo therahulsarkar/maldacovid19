@@ -126,7 +126,7 @@ var clear = document.querySelector('.buttonvaccineclear')
       var f = document.getElementById("vaccineboxday");
       var inputValue1 = f.options[f.selectedIndex].value;
 
-        fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=726&date='+inputValue1+'-'+inputValue2+'-2021')
+        fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=726&date='+inputValue1+'-'+inputValue2+'-2022')
         .then(response => response.json())
         .then(data => {
           const malda = data.sessions.map(data =>{
